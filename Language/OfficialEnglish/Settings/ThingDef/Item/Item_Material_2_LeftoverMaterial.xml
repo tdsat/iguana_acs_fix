@@ -1,0 +1,9 @@
+<Texts Type="Thing">
+	<List>
+    <Text Name="Item_HardWoodLeftover" sParam="Item">
+			<ThingName>Goldwood Offcut</ThingName>
+			<Desc>Leftover building material mixed with Goldwood offcuts. Can be used to lay floors or build eaves.</Desc>
+			<Item.BeMaterial.NamePrefix>Goldwood</Item.BeMaterial.NamePrefix>
+		</Text>
+    </List>
+</Texts>

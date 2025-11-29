@@ -21,6 +21,7 @@
 * Auction suspensions: happend -> happening
 * Shapeshifting Tribulation: corrected tribulation order
 * Farming Tool: Restored translation, which was removed in 1.25
+* Goldwood Offcut: Restored proper translation
 
 
 ## Reading convenience and clarity
