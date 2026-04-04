@@ -29,6 +29,7 @@
 * Cultivation experience numbers: added comma-separators
 * Golden Core Cultivators -> Xiandao Cultivators
 * Traveling merchant exchanges: precises which item is yours and which is theirs
+* Yaoguai character panel: Added colors to make thought shard details more distinct
 
 ## Forgotten translation
 * Missing category translation for the Bamboo Leftover in the Mini-Universe
