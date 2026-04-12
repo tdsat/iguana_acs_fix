@@ -32,6 +32,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Add Resources in World Map (Optional) - add spirit stones and influence numbers and icons on the top right of the screen in the world map. Works on Xbox Gamepass version.
 * Correct Caged Animal's Perception (Optional) - remove the 10 Perception from caged animals.
 * Rabbit Contract Solution - Boosts Rabbit Contracts at PS (From 1 AddV total to 2.5 AddV total, the equivalent of the Base+Rabbit speciality)
+* Tribute Rework - Changes Tribute Secret ID range, and adds a relevant MapStory for Wudang Sect.
 
 ## Install instructions
 
@@ -80,6 +81,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### MapStories
 
 * (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
+* (MapStory_System) System_Tribute_Wudang - Tribute Change, only contains Wudang related Story
 * (MapStory_FillingLv1) Story_2 and Story_Cold - "Fix Max Qi Story" related
 
 ### Buildings
@@ -140,6 +142,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
 * Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, uses the entire OfficialEnglish file
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed
+* Settings\Secrets\Secrets.txt and Secrets_Wudang.txt - Tribute Rework, IDs 5000+, Wudang is 5013
 * Scripts\main.lua - main LUA mod loading utility
 * Scripts\fix-event-a-different-time.lua - Related to "Fix Event A Different Time" change
 * Scripts\MapStory\MapStory.lua - Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
@@ -160,6 +163,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Wnd_World.OnShowUpdate, Wnd_SchoolTrade.__selectyes, Wnd_ZhaoLanWindow.OnInit, Wnd_OpenOutsWindow.UpLevelSideBuild,Wnd_World.OpenRegion - Add Resources in World Map
 * ThingFlag<Npc>.BuildActionDict - Golden Core Qi Recovery
 * Panel_NpcPractice.OnUpdate_Nei - text issues
+* XiaWorld.GameEventMgr.CheckSchoolEvent - Tribute Rework
 
 ## How to Contribute
 
