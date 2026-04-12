@@ -7,5 +7,11 @@
 			<Selections.0.Tip>State/Intelligence/Luck/Formation Skill</Selections.0.Tip>
 			<Selections.1.Display>Leave</Selections.1.Display>
     </Text>
+	<Text Name="System_Tribute_Wudang">
+			<DisplayName>Tribute</DisplayName>
+			<Desc>[NAME] arrived at [PLACE], and prepared to receive the annual tribute.</Desc>
+			<Selections.0.Display>Collect tribute</Selections.0.Display>
+			<Selections.1.Display>Leave</Selections.1.Display>
+	</Text>
   </List>
 </Texts>

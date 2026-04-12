@@ -50,4 +50,28 @@
 			</li>
 		</Selections>
 	</Story>
+
+<Story Name="System_Tribute_Wudang" Parent="Secrets_FabaoAppear3">
+		<DisplayName>进贡</DisplayName>
+		<Desc>[NAME]来到[PLACE]，准备收取每年的贡品。</Desc>		
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>收取贡品</Display>
+				<OKResult>
+				<![CDATA[	
+					me:AddMsg(XT("见[NAME]到来，[SCHOOL]恭恭敬敬的献上今年的贡品。"));
+					if story.School == 13 then
+						me:DropAwardItem("Item_XianBone", me:RandomInt(4,7));me:DropAwardItem("Item_BenYuan_None", me:RandomInt(2,5));me:DropAwardItem("Item_BenYuan_Jin", me:RandomInt(2,5));me:DropAwardItem("Item_BenYuan_Mu", me:RandomInt(2,5));me:DropAwardItem("Item_BenYuan_Shui", me:RandomInt(2,5));me:DropAwardItem("Item_BenYuan_Huo", me:RandomInt(2,5));me:DropAwardItem("Item_BenYuan_Tu", me:RandomInt(2,5));
+					end;
+					story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>告辞</Display>
+			</li>
+		</Selections>
+	</Story>
+
 </List></Stories>

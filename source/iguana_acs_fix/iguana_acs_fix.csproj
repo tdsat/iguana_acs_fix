@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="CultivationXPNumbers.cs" />
     <Compile Include="iguana_acs_fix.cs" />
+    <Compile Include="iguana_TributeRework.cs" />
     <Compile Include="MainPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QiRecoveryNOLING.cs" />
