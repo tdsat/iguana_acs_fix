@@ -9,7 +9,7 @@
 			<EquipmentNeed>Item_MiBao_ZhuXianZhenTu</EquipmentNeed>
 			<EsotericaNeed>jdj</EsotericaNeed>
 			<SkillNeed Type="Fabao" Level="20"/>
-			<GongNeed GongKind="None" GongName="dddddd"/>
+			<GongKindCondition GongKind="None" GongName="dddddd"/>
 		</li>
 	</Condition> -->
 	
@@ -34,7 +34,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<DaoHangNeed>350</DaoHangNeed>
 						<SkillNeed Type="Fabao" Level="30"/>
-						<GongNeed GongKind="None"/>
+						<GongKindCondition GongKind="None"/>
 					</li>
 				</Condition>
 				<SuitName>zhuxianzhen</SuitName>
@@ -56,7 +56,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<DaoHangNeed>350</DaoHangNeed>
 						<SkillNeed Type="Fabao" Level="25"/>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 						<EquipmentNeed>Item_MiBao_ZhuXianJian</EquipmentNeed>
 					</li>
 				</Condition>
@@ -79,7 +79,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<DaoHangNeed>350</DaoHangNeed>
 						<SkillNeed Type="Fabao" Level="25"/>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 						<EquipmentNeed>Item_MiBao_LuXianJian</EquipmentNeed>
 					</li>
 				</Condition>
@@ -101,7 +101,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<DaoHangNeed>350</DaoHangNeed>
 						<SkillNeed Type="Fabao" Level="25"/>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 						<EquipmentNeed>Item_MiBao_XianXianJian</EquipmentNeed>
 					</li>
 				</Condition>
@@ -123,7 +123,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<DaoHangNeed>350</DaoHangNeed>
 						<SkillNeed Type="Fabao" Level="25"/>
-						<GongNeed GongKind="Huo"/>
+						<GongKindCondition GongKind="Huo"/>
 						<EquipmentNeed>Item_MiBao_JueXianJian</EquipmentNeed>
 					</li>
 				</Condition>
@@ -339,7 +339,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<MaxLingNeed>640000</MaxLingNeed>
 						<SkillNeed Type="Barrier" Level="20"/>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 						<EquipmentNeed>Item_MiBao_JinFabao</EquipmentNeed>
 					</li>
 				</Condition>
@@ -363,7 +363,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<MaxLingNeed>640000</MaxLingNeed>
 						<SkillNeed Type="Barrier" Level="20"/>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 						<EquipmentNeed>Item_MiBao_MuFabao</EquipmentNeed>
 					</li>
 				</Condition>
@@ -386,7 +386,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<MaxLingNeed>640000</MaxLingNeed>
 						<SkillNeed Type="Barrier" Level="20"/>
-						<GongNeed GongKind="Jin"/>
+						<GongKindCondition GongKind="Jin"/>
 						<EquipmentNeed>Item_MiBao_ShuiFabao</EquipmentNeed>
 					</li>
 				</Condition>
@@ -408,7 +408,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<MaxLingNeed>640000</MaxLingNeed>
 						<SkillNeed Type="Barrier" Level="20"/>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 						<EquipmentNeed>Item_MiBao_HuoFabao</EquipmentNeed>
 					</li>
 				</Condition>
@@ -433,7 +433,7 @@
 						<GongLevelNeed>God</GongLevelNeed>
 						<MaxLingNeed>640000</MaxLingNeed>
 						<SkillNeed Type="Barrier" Level="20"/>
-						<GongNeed GongKind="Huo"/>
+						<GongKindCondition GongKind="Huo"/>
 						<EquipmentNeed>Item_MiBao_TuFabao</EquipmentNeed>
 					</li>
 				</Condition>
@@ -464,7 +464,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Male</SexNeed>
-						<GongNeed GongKind="None"/>
+						<GongKindCondition GongKind="None"/>
 						<EquipmentNeed>Item_MiBao_LiuYuZhenTu</EquipmentNeed>
 					</li>
 				</Condition>
@@ -490,7 +490,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Male</SexNeed>
-						<GongNeed GongKind="Jin"/>
+						<GongKindCondition GongKind="Jin"/>
 					</li>
 				</Condition>
 				<SuitName>liuyuzhen</SuitName>
@@ -515,7 +515,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Male</SexNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>liuyuzhen</SuitName>
@@ -540,7 +540,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Male</SexNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>liuyuzhen</SuitName>
@@ -565,7 +565,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Male</SexNeed>
-						<GongNeed GongKind="Huo"/>
+						<GongKindCondition GongKind="Huo"/>
 					</li>
 				</Condition>
 				<SuitName>liuyuzhen</SuitName>
@@ -590,7 +590,7 @@
 					<li>
 						<SkillNeed Type="SocialContact" Level="20"/>
 						<SexNeed>Female</SexNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>liuyuzhen</SuitName>
@@ -1038,7 +1038,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<SexNeed>Female</SexNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 						<EquipmentNeed>Item_MiBao_SanYinZhenTu</EquipmentNeed>
 					</li>
 				</Condition>
@@ -1060,7 +1060,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<SexNeed>Female</SexNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>sanyinzhen</SuitName>
@@ -1081,7 +1081,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<SexNeed>Female</SexNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>sanyinzhen</SuitName>
@@ -1112,7 +1112,7 @@
 						<EquipmentNeed>Item_MiBao_BaMenZhenTu</EquipmentNeed>
 						<GongLevelNeed>God</GongLevelNeed>
 						<SkillNeed Type="Fabao" Level="20"/>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>bamen_ji</SuitName>
@@ -1132,7 +1132,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>bamen_ji</SuitName>
@@ -1151,7 +1151,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Shui"/>
+						<GongKindCondition GongKind="Shui"/>
 					</li>
 				</Condition>
 				<SuitName>bamen_ji</SuitName>
@@ -1170,7 +1170,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>bamen_xiong</SuitName>
@@ -1190,7 +1190,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>bamen_xiong</SuitName>
@@ -1210,7 +1210,7 @@
 					<li>
 						<GongLevelNeed>God</GongLevelNeed>
 						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 
 					</li>
 				</Condition>
@@ -1278,7 +1278,7 @@
 					<li>
 						<SkillNeed Type="Medicine" Level="15"/>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>jiayimushenzhen</SuitName>
@@ -1299,7 +1299,7 @@
 					<li>
 						<SkillNeed Type="Medicine" Level="15"/>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>jiayimushenzhen</SuitName>
@@ -1319,7 +1319,7 @@
 					<li>
 						<SkillNeed Type="Medicine" Level="15"/>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>jiayimushenzhen</SuitName>
@@ -1339,7 +1339,7 @@
 					<li>
 						<SkillNeed Type="Medicine" Level="15"/>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>jiayimushenzhen</SuitName>
@@ -1358,7 +1358,7 @@
 					<li>
 						<SkillNeed Type="Medicine" Level="15"/>
 						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
-						<GongNeed GongKind="Mu"/>
+						<GongKindCondition GongKind="Mu"/>
 					</li>
 				</Condition>
 				<SuitName>jiayimushenzhen</SuitName>
@@ -1388,7 +1388,7 @@
 					<li>
 						<SkillNeed Type="Barrier" Level="15"/>
 						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>wuyuezhen</SuitName>
@@ -1408,7 +1408,7 @@
 					<li>
 						<SkillNeed Type="Barrier" Level="15"/>
 						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>wuyuezhen</SuitName>
@@ -1428,7 +1428,7 @@
 					<li>
 						<SkillNeed Type="Barrier" Level="15"/>
 						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>wuyuezhen</SuitName>
@@ -1447,7 +1447,7 @@
 					<li>
 						<SkillNeed Type="Barrier" Level="15"/>
 						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>wuyuezhen</SuitName>
@@ -1466,7 +1466,7 @@
 					<li>
 						<SkillNeed Type="Barrier" Level="15"/>
 						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
-						<GongNeed GongKind="Tu"/>
+						<GongKindCondition GongKind="Tu"/>
 					</li>
 				</Condition>
 				<SuitName>wuyuezhen</SuitName>
